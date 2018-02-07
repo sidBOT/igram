@@ -1,0 +1,6 @@
+framework module Pods_igram {
+  umbrella header "Pods-igram-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D32B750C50561B4DA4095E5 /* Pods_igram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00A1B865BD87668974FA2DA /* Pods_igram.framework */; };
 		1F6D31A8202B676C00D3247E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D31A7202B676C00D3247E /* AppDelegate.swift */; };
 		1F6D31AA202B676C00D3247E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D31A9202B676C00D3247E /* ViewController.swift */; };
 		1F6D31AD202B676C00D3247E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6D31AB202B676C00D3247E /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		1F6D31B5202B676C00D3247E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6D31B3202B676C00D3247E /* LaunchScreen.storyboard */; };
 		1F6D31C0202B676C00D3247E /* igramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D31BF202B676C00D3247E /* igramTests.swift */; };
 		1F6D31CB202B676C00D3247E /* igramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D31CA202B676C00D3247E /* igramUITests.swift */; };
+		1FFD89A2202B9F39004D69A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD89A1202B9F39004D69A2 /* LoginViewController.swift */; };
+		2445ED294F6D19BE36056047 /* Pods_igramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A4B5145302F8637E762277 /* Pods_igramUITests.framework */; };
+		2F2E2E859008027C4C82C05B /* Pods_igramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9834E78B3E920D6810B559 /* Pods_igramTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047A6D60AF02E05E75BBAB7F /* Pods-igramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-igramUITests/Pods-igramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0BCF21F6D5BB834142A7598C /* Pods-igramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-igramTests/Pods-igramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F6D31A4202B676C00D3247E /* igram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = igram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6D31A7202B676C00D3247E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F6D31A9202B676C00D3247E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		1F6D31C6202B676C00D3247E /* igramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = igramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6D31CA202B676C00D3247E /* igramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = igramUITests.swift; sourceTree = "<group>"; };
 		1F6D31CC202B676C00D3247E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFD89A1202B9F39004D69A2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		204D6F08DA5ADB85D30DBFC6 /* Pods-igram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-igram/Pods-igram.debug.xcconfig"; sourceTree = "<group>"; };
+		4C579B25B40490076B98D32D /* Pods-igram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igram.release.xcconfig"; path = "Pods/Target Support Files/Pods-igram/Pods-igram.release.xcconfig"; sourceTree = "<group>"; };
+		5C9834E78B3E920D6810B559 /* Pods_igramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_igramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A4B5145302F8637E762277 /* Pods_igramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_igramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E589AD6FEE65F025AE98CB9 /* Pods-igramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-igramTests/Pods-igramTests.release.xcconfig"; sourceTree = "<group>"; };
+		B00A1B865BD87668974FA2DA /* Pods_igram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_igram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0B50C7979ACEFF3B477382 /* Pods-igramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-igramUITests/Pods-igramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D32B750C50561B4DA4095E5 /* Pods_igram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F2E2E859008027C4C82C05B /* Pods_igramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2445ED294F6D19BE36056047 /* Pods_igramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FA07A562DB7D8C6989FADD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				204D6F08DA5ADB85D30DBFC6 /* Pods-igram.debug.xcconfig */,
+				4C579B25B40490076B98D32D /* Pods-igram.release.xcconfig */,
+				0BCF21F6D5BB834142A7598C /* Pods-igramTests.debug.xcconfig */,
+				7E589AD6FEE65F025AE98CB9 /* Pods-igramTests.release.xcconfig */,
+				CC0B50C7979ACEFF3B477382 /* Pods-igramUITests.debug.xcconfig */,
+				047A6D60AF02E05E75BBAB7F /* Pods-igramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1F6D319B202B676B00D3247E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				1F6D31BE202B676C00D3247E /* igramTests */,
 				1F6D31C9202B676C00D3247E /* igramUITests */,
 				1F6D31A5202B676C00D3247E /* Products */,
+				0FA07A562DB7D8C6989FADD8 /* Pods */,
+				39EC13D4FFA1C0A24BEC5AA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +138,7 @@
 				1F6D31B3202B676C00D3247E /* LaunchScreen.storyboard */,
 				1F6D31B6202B676C00D3247E /* Info.plist */,
 				1F6D31AE202B676C00D3247E /* igram.xcdatamodeld */,
+				1FFD89A1202B9F39004D69A2 /* LoginViewController.swift */,
 			);
 			path = igram;
 			sourceTree = "<group>";
@@ -128,6 +161,16 @@
 			path = igramUITests;
 			sourceTree = "<group>";
 		};
+		39EC13D4FFA1C0A24BEC5AA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B00A1B865BD87668974FA2DA /* Pods_igram.framework */,
+				5C9834E78B3E920D6810B559 /* Pods_igramTests.framework */,
+				72A4B5145302F8637E762277 /* Pods_igramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F6D31CF202B676C00D3247E /* Build configuration list for PBXNativeTarget "igram" */;
 			buildPhases = (
+				A27AE5B531C9BEA19F962A18 /* [CP] Check Pods Manifest.lock */,
 				1F6D31A0202B676B00D3247E /* Sources */,
 				1F6D31A1202B676B00D3247E /* Frameworks */,
 				1F6D31A2202B676B00D3247E /* Resources */,
+				90EEB4DB2468146BC903EF29 /* [CP] Embed Pods Frameworks */,
+				7905158FB6FFD68B028884CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F6D31D2202B676C00D3247E /* Build configuration list for PBXNativeTarget "igramTests" */;
 			buildPhases = (
+				3D4E2466C84AE5A5A0E5E2F2 /* [CP] Check Pods Manifest.lock */,
 				1F6D31B7202B676C00D3247E /* Sources */,
 				1F6D31B8202B676C00D3247E /* Frameworks */,
 				1F6D31B9202B676C00D3247E /* Resources */,
+				BDD44A0922640CD86E9CE5E3 /* [CP] Embed Pods Frameworks */,
+				58DFFE9F3E7DB31891ABD1FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F6D31D5202B676C00D3247E /* Build configuration list for PBXNativeTarget "igramUITests" */;
 			buildPhases = (
+				38C6C3D3B4B5CC5E0BC5FAD9 /* [CP] Check Pods Manifest.lock */,
 				1F6D31C2202B676C00D3247E /* Sources */,
 				1F6D31C3202B676C00D3247E /* Frameworks */,
 				1F6D31C4202B676C00D3247E /* Resources */,
+				149BDF800F6F3CC9FF0ED94F /* [CP] Embed Pods Frameworks */,
+				9B3F60E5781D91931BB9E283 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +309,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		149BDF800F6F3CC9FF0ED94F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-igramUITests/Pods-igramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C6C3D3B4B5CC5E0BC5FAD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-igramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D4E2466C84AE5A5A0E5E2F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-igramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58DFFE9F3E7DB31891ABD1FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-igramTests/Pods-igramTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7905158FB6FFD68B028884CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-igram/Pods-igram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90EEB4DB2468146BC903EF29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-igram/Pods-igram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-igram/Pods-igram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3F60E5781D91931BB9E283 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-igramUITests/Pods-igramUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27AE5B531C9BEA19F962A18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-igram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD44A0922640CD86E9CE5E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-igramTests/Pods-igramTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-igramTests/Pods-igramTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F6D31A0202B676B00D3247E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFD89A2202B9F39004D69A2 /* LoginViewController.swift in Sources */,
 				1F6D31B0202B676C00D3247E /* igram.xcdatamodeld in Sources */,
 				1F6D31AA202B676C00D3247E /* ViewController.swift in Sources */,
 				1F6D31A8202B676C00D3247E /* AppDelegate.swift in Sources */,
@@ -412,8 +622,13 @@
 		};
 		1F6D31D0202B676C00D3247E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204D6F08DA5ADB85D30DBFC6 /* Pods-igram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = igram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jo.igram;
@@ -424,8 +639,13 @@
 		};
 		1F6D31D1202B676C00D3247E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C579B25B40490076B98D32D /* Pods-igram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = igram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jo.igram;
@@ -436,6 +656,7 @@
 		};
 		1F6D31D3202B676C00D3247E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCF21F6D5BB834142A7598C /* Pods-igramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +671,7 @@
 		};
 		1F6D31D4202B676C00D3247E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E589AD6FEE65F025AE98CB9 /* Pods-igramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +686,7 @@
 		};
 		1F6D31D6202B676C00D3247E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0B50C7979ACEFF3B477382 /* Pods-igramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = igramUITests/Info.plist;
@@ -477,6 +700,7 @@
 		};
 		1F6D31D7202B676C00D3247E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047A6D60AF02E05E75BBAB7F /* Pods-igramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = igramUITests/Info.plist;
@@ -507,6 +731,7 @@
 				1F6D31D1202B676C00D3247E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F6D31D2202B676C00D3247E /* Build configuration list for PBXNativeTarget "igramTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +740,7 @@
 				1F6D31D4202B676C00D3247E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F6D31D5202B676C00D3247E /* Build configuration list for PBXNativeTarget "igramUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +749,7 @@
 				1F6D31D7202B676C00D3247E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
