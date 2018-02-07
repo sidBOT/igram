@@ -17,6 +17,8 @@
 		1F6D31C0202B676C00D3247E /* igramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D31BF202B676C00D3247E /* igramTests.swift */; };
 		1F6D31CB202B676C00D3247E /* igramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D31CA202B676C00D3247E /* igramUITests.swift */; };
 		1FFD89A2202B9F39004D69A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD89A1202B9F39004D69A2 /* LoginViewController.swift */; };
+		1FFD89A4202BB2BD004D69A2 /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD89A3202BB2BD004D69A2 /* PhotoViewCell.swift */; };
+		1FFD89A8202BB77D004D69A2 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD89A7202BB77D004D69A2 /* PhotoViewController.swift */; };
 		2445ED294F6D19BE36056047 /* Pods_igramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A4B5145302F8637E762277 /* Pods_igramUITests.framework */; };
 		2F2E2E859008027C4C82C05B /* Pods_igramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9834E78B3E920D6810B559 /* Pods_igramTests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +58,8 @@
 		1F6D31CA202B676C00D3247E /* igramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = igramUITests.swift; sourceTree = "<group>"; };
 		1F6D31CC202B676C00D3247E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FFD89A1202B9F39004D69A2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1FFD89A3202BB2BD004D69A2 /* PhotoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewCell.swift; sourceTree = "<group>"; };
+		1FFD89A7202BB77D004D69A2 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		204D6F08DA5ADB85D30DBFC6 /* Pods-igram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-igram/Pods-igram.debug.xcconfig"; sourceTree = "<group>"; };
 		4C579B25B40490076B98D32D /* Pods-igram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igram.release.xcconfig"; path = "Pods/Target Support Files/Pods-igram/Pods-igram.release.xcconfig"; sourceTree = "<group>"; };
 		5C9834E78B3E920D6810B559 /* Pods_igramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_igramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +143,8 @@
 				1F6D31B6202B676C00D3247E /* Info.plist */,
 				1F6D31AE202B676C00D3247E /* igram.xcdatamodeld */,
 				1FFD89A1202B9F39004D69A2 /* LoginViewController.swift */,
+				1FFD89A3202BB2BD004D69A2 /* PhotoViewCell.swift */,
+				1FFD89A7202BB77D004D69A2 /* PhotoViewController.swift */,
 			);
 			path = igram;
 			sourceTree = "<group>";
@@ -475,6 +481,8 @@
 				1F6D31B0202B676C00D3247E /* igram.xcdatamodeld in Sources */,
 				1F6D31AA202B676C00D3247E /* ViewController.swift in Sources */,
 				1F6D31A8202B676C00D3247E /* AppDelegate.swift in Sources */,
+				1FFD89A4202BB2BD004D69A2 /* PhotoViewCell.swift in Sources */,
+				1FFD89A8202BB77D004D69A2 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

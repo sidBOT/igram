@@ -52,19 +52,18 @@ class LoginViewController: UIViewController {
                 print(error.localizedDescription)
             } else {
                 print("User Registered successfully")
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
                 // manually segue to logged in view
             }
         }
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+        let desViewController = segue.destination as? UINavigationController
+        let VC = desViewController?.viewControllers.first as? PhotoViewController
+        VC?.userName = userNameField.text ?? ""
 
+        
+    }
 }
+
