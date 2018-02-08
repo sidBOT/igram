@@ -12,6 +12,8 @@ import Parse
 class PhotoViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
+    
+    var posts : [[String: Any]] = []
 
     var userName: String!
     override func viewDidLoad() {
@@ -20,10 +22,6 @@ class PhotoViewController: UIViewController, UITableViewDataSource {
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     @IBAction func logoutAction(_ sender: Any) {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
@@ -31,7 +29,7 @@ class PhotoViewController: UIViewController, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return posts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		1D32B750C50561B4DA4095E5 /* Pods_igram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00A1B865BD87668974FA2DA /* Pods_igram.framework */; };
 		1F6D31A8202B676C00D3247E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D31A7202B676C00D3247E /* AppDelegate.swift */; };
-		1F6D31AA202B676C00D3247E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D31A9202B676C00D3247E /* ViewController.swift */; };
 		1F6D31AD202B676C00D3247E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6D31AB202B676C00D3247E /* Main.storyboard */; };
 		1F6D31B0202B676C00D3247E /* igram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D31AE202B676C00D3247E /* igram.xcdatamodeld */; };
 		1F6D31B2202B676C00D3247E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6D31B1202B676C00D3247E /* Assets.xcassets */; };
 		1F6D31B5202B676C00D3247E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6D31B3202B676C00D3247E /* LaunchScreen.storyboard */; };
 		1F6D31C0202B676C00D3247E /* igramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D31BF202B676C00D3247E /* igramTests.swift */; };
 		1F6D31CB202B676C00D3247E /* igramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D31CA202B676C00D3247E /* igramUITests.swift */; };
+		1FD10F85202BFFEE00E46819 /* PhotoPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD10F84202BFFEE00E46819 /* PhotoPostViewController.swift */; };
+		1FD10F87202C0C2000E46819 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD10F86202C0C2000E46819 /* Post.swift */; };
 		1FFD89A2202B9F39004D69A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD89A1202B9F39004D69A2 /* LoginViewController.swift */; };
 		1FFD89A4202BB2BD004D69A2 /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD89A3202BB2BD004D69A2 /* PhotoViewCell.swift */; };
 		1FFD89A8202BB77D004D69A2 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD89A7202BB77D004D69A2 /* PhotoViewController.swift */; };
@@ -45,7 +46,6 @@
 		0BCF21F6D5BB834142A7598C /* Pods-igramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-igramTests/Pods-igramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F6D31A4202B676C00D3247E /* igram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = igram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6D31A7202B676C00D3247E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F6D31A9202B676C00D3247E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F6D31AC202B676C00D3247E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F6D31AF202B676C00D3247E /* igram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = igram.xcdatamodel; sourceTree = "<group>"; };
 		1F6D31B1202B676C00D3247E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +57,8 @@
 		1F6D31C6202B676C00D3247E /* igramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = igramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6D31CA202B676C00D3247E /* igramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = igramUITests.swift; sourceTree = "<group>"; };
 		1F6D31CC202B676C00D3247E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD10F84202BFFEE00E46819 /* PhotoPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPostViewController.swift; sourceTree = "<group>"; };
+		1FD10F86202C0C2000E46819 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1FFD89A1202B9F39004D69A2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1FFD89A3202BB2BD004D69A2 /* PhotoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewCell.swift; sourceTree = "<group>"; };
 		1FFD89A7202BB77D004D69A2 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
@@ -136,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				1F6D31A7202B676C00D3247E /* AppDelegate.swift */,
-				1F6D31A9202B676C00D3247E /* ViewController.swift */,
 				1F6D31AB202B676C00D3247E /* Main.storyboard */,
 				1F6D31B1202B676C00D3247E /* Assets.xcassets */,
 				1F6D31B3202B676C00D3247E /* LaunchScreen.storyboard */,
@@ -145,6 +146,8 @@
 				1FFD89A1202B9F39004D69A2 /* LoginViewController.swift */,
 				1FFD89A3202BB2BD004D69A2 /* PhotoViewCell.swift */,
 				1FFD89A7202BB77D004D69A2 /* PhotoViewController.swift */,
+				1FD10F84202BFFEE00E46819 /* PhotoPostViewController.swift */,
+				1FD10F86202C0C2000E46819 /* Post.swift */,
 			);
 			path = igram;
 			sourceTree = "<group>";
@@ -479,9 +482,10 @@
 			files = (
 				1FFD89A2202B9F39004D69A2 /* LoginViewController.swift in Sources */,
 				1F6D31B0202B676C00D3247E /* igram.xcdatamodeld in Sources */,
-				1F6D31AA202B676C00D3247E /* ViewController.swift in Sources */,
 				1F6D31A8202B676C00D3247E /* AppDelegate.swift in Sources */,
+				1FD10F85202BFFEE00E46819 /* PhotoPostViewController.swift in Sources */,
 				1FFD89A4202BB2BD004D69A2 /* PhotoViewCell.swift in Sources */,
+				1FD10F87202C0C2000E46819 /* Post.swift in Sources */,
 				1FFD89A8202BB77D004D69A2 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

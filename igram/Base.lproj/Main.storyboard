@@ -128,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="2868" y="136.28185907046478"/>
         </scene>
-        <!--View Controller-->
+        <!--Photo Post View Controller-->
         <scene sceneID="eOm-da-TA2">
             <objects>
-                <viewController id="kNK-Nb-xx0" sceneMemberID="viewController">
+                <viewController id="kNK-Nb-xx0" customClass="PhotoPostViewController" customModule="igram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="u2A-dv-XpF"/>
                         <viewControllerLayoutGuide type="bottom" id="g6J-zY-sre"/>
@@ -139,6 +139,26 @@
                     <view key="view" contentMode="scaleToFill" id="ePP-R2-bJU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="E7X-ac-Pyp">
+                                <rect key="frame" x="88" y="72" width="198" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter caption!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dlc-D8-n62">
+                                <rect key="frame" x="16" y="399" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Caption" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWW-dZ-KXu">
+                                <rect key="frame" x="131" y="323" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="xya-K7-lqL">
@@ -149,10 +169,15 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Share" id="95W-ds-AJO">
                             <connections>
+                                <action selector="sharePhotoAction:" destination="kNK-Nb-xx0" id="rQQ-3l-eQi"/>
                                 <segue destination="m40-Et-mUd" kind="show" identifier="shareSegue" id="GW3-57-Wz3"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="captionTextField" destination="Dlc-D8-n62" id="dhc-KA-M73"/>
+                        <outlet property="photoView" destination="E7X-ac-Pyp" id="DsU-Er-9ux"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xFB-49-ILo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -214,9 +239,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="image_placeholder" width="375" height="375"/>
         <image name="insta_camera_btn" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qMj-H5-OeF"/>
+        <segue reference="QjT-HE-6Fd"/>
     </inferredMetricsTieBreakers>
 </document>
