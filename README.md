@@ -1,8 +1,8 @@
-# Project 4 - *Name of App Here*
+# Project 4 - *Instagram*
 
-**Name of your app** is a photo sharing app using Parse as its backend.
+**Igram** is a photo sharing app using Parse as its backend.
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
@@ -37,12 +37,12 @@ The following **stretch** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. Added blur view on an image
+2. 
 
 ## Video Walkthrough
 
