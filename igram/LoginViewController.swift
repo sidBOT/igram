@@ -58,12 +58,12 @@ class LoginViewController: UIViewController {
         }
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let desViewController = segue.destination as? UINavigationController
-        let VC = desViewController?.viewControllers.first as? PhotoViewController
-        VC?.userName = userNameField.text ?? ""
-
-        
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let desViewController = segue.destination as? UINavigationController
+//        let VC = desViewController?.viewControllers.first as? PhotoViewController
+//        VC?.userName = userNameField.text ?? ""
+//
+//        
+//    }
 }
 

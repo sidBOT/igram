@@ -18,5 +18,6 @@ target 'igram' do
   end
 
 	pod 'Parse'
+	pod 'ParseUI'
 
 end

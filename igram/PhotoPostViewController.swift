@@ -21,7 +21,7 @@ class PhotoPostViewController: UIViewController, UIImagePickerControllerDelegate
     
     override func viewDidLoad() {
         
-        
+        super.viewDidLoad()
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         photoView.isUserInteractionEnabled = true
         photoView.addGestureRecognizer(tapGestureRecognizer)
@@ -29,14 +29,12 @@ class PhotoPostViewController: UIViewController, UIImagePickerControllerDelegate
         photoView.layer.cornerRadius = 8.0
         photoView.clipsToBounds = true
         
-        super.viewDidLoad()
 
     }
     func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
     {
         let vc = UIImagePickerController()
         vc.delegate = self
-        vc.allowsEditing = true
         vc.sourceType = UIImagePickerControllerSourceType.photoLibrary
         
         self.present(vc, animated: true, completion: nil)
